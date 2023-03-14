@@ -27,13 +27,5 @@ export const ProjectList = [
     skills: "React, Firebase, Typescript, HTML, CSS",
     try: "https://coruscating-peony-66f2b4.netlify.app",
     repo: "https://github.com/mirnaaaaa/Chat-App"
-  },
-  {
-    id: 4,
-    name: "Chat-App",
-    image: chat,
-    skills: "React, Firebase, Typescript, HTML, CSS",
-    try: "https://coruscating-peony-66f2b4.netlify.app",
-    repo: "https://github.com/mirnaaaaa/Chat-App"
-  },
+  }
 ];
