@@ -1,38 +1,256 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: #0c0f00;
+  color: rgb(232, 232, 4);
+}
+.cat{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.Projects{
+  min-height: 82.3vh;
+padding-top: 70px;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.items{
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 3px 9px  rgb(232, 232, 4);
+  margin: 25px 55px;
+}
+
+.items:hover{
+  cursor: pointer;
+  background-color:  rgb(22, 25, 3);
+  box-shadow: 2px 2px 25px   rgb(232, 232, 4) ;
+}
+.personal{
+  color: aliceblue;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.projectName{
+  display: flex;
+  align-items: center;
+font-size: 16px;
+  justify-content: center;
+}
+.projectItem{
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.shop{
+  width: 230px;
+  height: 150px;
+  object-fit: cover;
+}
+.main{
+  min-height: 91.6vh;
+display: flex;
+align-items: center;
+  justify-content: space-between;
+}
+.handleIcons{
+  display: flex;
+  margin-left: 225px;
+
+}
+.about{
+  color: rgb(232, 232, 4);
+  margin-bottom: -10px;
+}
+.yellow{
+  color: rgb(232, 232, 4);
+}
+.aboutMe{
+  margin-top: 100px;
+  color: aliceblue;
+  width: 390px;
+}
+.name{
+  font-size: 35px;
+  margin-top: -12px;
+}
+.developers{
+  color: #FFFFFF8c;
+  font-size: 15px;
+}
+.developer{
+  color: #FFFFFF8c;
+  font-size: 15px;
+  margin-top: -25px;
+  margin-bottom: 55px;
+}
+.navbar{
+  display: flex;
+position: fixed;
+ height: 60px;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(22, 25, 3);
+ width: 100vw;
+  top: 0;
+}
+.footer{
+  background-color: rgb(22, 25, 3);
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy{
+  margin-left: 15px;
+  font-size: 12px;
+
+}
+.links{
+  margin-right: 15px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.use:hover{
+  color: rgb(232, 232, 4);
+}
+.use{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.GoArrowLeft{
+display: flex;
+margin-top: -23px;
+margin-left: 110px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github{
+  margin-right: 15px;
+  color: #0c0f00;
+  background-color: aliceblue;
+  border-radius: 40px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.githubProject{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0c0f00;
+  background-color: aliceblue;
+  height: 54px;
+  font-size: 55px;
+  margin: 20px 0;
+  border-radius: 30px;
+}
+.repo{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+.code{
+  font-size: 15px;
+  margin-right: 10px;
+}
+.instagram{
+  margin-right: 15px;
+  color: #c13584;
+}
+.linkedin {
+margin-right: 15px;
+color: #0077b5;
+}
+.facebook{
+  margin-right: 15px;
+  color: #3b5998;
+}
+.handleItems{
+  display: flex;
+  margin: 0 25px;
+}
+.link{
+  text-decoration: none;
+  color: rgb(232, 232, 4);
+}
+.Link{
+  color: aliceblue;
+  text-decoration: none;
+}
+.Link:hover{
+  text-decoration: none;
+  color: rgb(232, 232, 4);
+}
+.handleItems:hover{
+  cursor: pointer;
+  color: aliceblue;
+}
+.profile{
+  border-radius: 50px;
+  width: 155px;
+  object-fit: cover;
+  display: flex;
+}
+.DiPython{
+  display: flex;
+  margin-left: 5px;
+  margin-top: 147px;
+}
+.DiHtml5{
+  margin-top: -7px;
+  display: flex;
+margin-left: -60px;
+}
+.DiJsBadge{
+    display: flex;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: -22px;
+}
+.react{
+  border-radius: 60px;
+  width: 23px;
+  margin-top: 80px;
+  font-size: 35px;
+    display: flex;
+    margin-left: -10px;
+  color: rgb(232, 232, 4);
+}
+.photo{
+  width: 455px;
+  height: 250px;
+  margin: 20px 0;
+} 
+.projectTitle{
+  display: flex;
+color: aliceblue;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.languages{
+color: aliceblue;
+font-size: 20px;
 }
