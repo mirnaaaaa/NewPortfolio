@@ -71,6 +71,7 @@ justify-content: center;
 }
 .handleIcons{
   display: flex;
+  margin-top: -155px;
   margin-left: 125px;
 }
 .about{
