@@ -9,17 +9,16 @@
 body{
   background-color: #0c0f00;
   color: rgb(232, 232, 4);
-  width: 100%;
-}.App{
-  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
 }
+.App{width: auto;}
 .cat{
-  height: auto;
-  display: flex;
-  flex-direction: column;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: auto;
+  display: grid;
+  place-items: center;
 }
 .Projects{
   min-height: 82.3vh;
@@ -65,16 +64,15 @@ font-size: 16px;
 }
 .main{
   min-height: 91.6vh;
+  width: auto;
 display: flex;
-width: 100%;
-margin: 0 50px;
 align-items: center;
-  justify-content: space-between;
+justify-content: center;
 }
 .handleIcons{
   display: flex;
-  margin-left: 225px;
-
+  margin-left: 125px;
+  margin-top: -250px;
 }
 .about{
   color: rgb(232, 232, 4);
@@ -84,7 +82,6 @@ align-items: center;
   color: rgb(232, 232, 4);
 }
 .aboutMe{
-  margin-top: 100px;
   color: aliceblue;
   width: 390px;
 }
