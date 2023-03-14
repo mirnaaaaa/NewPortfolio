@@ -72,7 +72,6 @@ justify-content: center;
 .handleIcons{
   display: flex;
   margin-left: 125px;
-  margin-top: -250px;
 }
 .about{
   color: rgb(232, 232, 4);
