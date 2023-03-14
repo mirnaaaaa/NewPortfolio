@@ -10,7 +10,7 @@ import ProjectDetails from "./Components/ProjectDetails";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Router>
         <div style={{ backgroundImage: `url(${Cat})` }} className="cat">
           <Navbar />

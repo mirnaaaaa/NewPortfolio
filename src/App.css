@@ -10,14 +10,16 @@ body{
   background-color: #0c0f00;
   color: rgb(232, 232, 4);
   width: 100%;
+}.App{
+  font-family: Arial, Helvetica, sans-serif;
 }
 .cat{
-  height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  display: grid;
-  place-items: center;
 }
 .Projects{
   min-height: 82.3vh;
@@ -64,6 +66,7 @@ font-size: 16px;
 .main{
   min-height: 91.6vh;
 display: flex;
+margin: 0 50px;
 align-items: center;
   justify-content: space-between;
 }
