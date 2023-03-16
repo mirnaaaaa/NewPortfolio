@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div className="main">
       <div className="aboutMe">
-        <p>
+        <p className="hi">
           <b className="yellow">Hi</b>, I'm
         </p>
         <p className="name">Mirna Misheal</p>

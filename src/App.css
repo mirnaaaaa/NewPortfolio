@@ -78,6 +78,9 @@ justify-content: center;
   color: rgb(232, 232, 4);
   margin-bottom: -10px;
 }
+.hi{
+  margin-left: -170px;
+}
 .yellow{
   color: rgb(232, 232, 4);
 }
@@ -87,7 +90,7 @@ justify-content: center;
 }
 .name{
   font-size: 35px;
-  margin-top: -12px;
+  margin-top: -19px;
 }
 .developers{
   color: #FFFFFF8c;
@@ -96,7 +99,8 @@ justify-content: center;
 .developer{
   color: #FFFFFF8c;
   font-size: 15px;
-  margin-top: -25px;
+  margin-top: -33px;
+margin-left: -78px;
   margin-bottom: 55px;
 }
 .navbar{
