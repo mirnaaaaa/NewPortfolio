@@ -1,8 +1,4 @@
-import {
-  AiOutlineGithub,
-  AiFillLinkedin,
-  AiOutlineInstagram
-} from "react-icons/ai";
+import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 
 export const Socials = [
   {
