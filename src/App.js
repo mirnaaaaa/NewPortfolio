@@ -1,27 +1,24 @@
 import "./App.css";
 import { React } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import { Footer } from "./Components/Footer";
-import Cat from "./img/ths.jpeg";
+import {SocialLinks} from "./Components/SocialLinks"
+import { About } from "./Components/About";
 import Main from "./Components/Main";
 import Projects from "./Components/Projects";
-import ProjectDetails from "./Components/ProjectDetails";
+import { Skills } from "./Components/Skills";
+import { Contact } from "./Components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <div style={{ backgroundImage: `url(${Cat})` }} className="cat">
+    <div>
+       { /*<div style={{ backgroundImage: `url(${Cat})` }} className="cat"> */}
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/Projects" element={<Projects />} />
-            <Route path="/ProjectDetails/:id" element={<ProjectDetails />} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
+          <Main />
+          <SocialLinks />
+          <About />
+          <Skills/>
+          <Projects />
+          <Contact />
     </div>
   );
 }
