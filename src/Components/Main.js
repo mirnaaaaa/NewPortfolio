@@ -15,7 +15,7 @@ export default function Main() {
           <h1 className="text-4xl sm:text-7xl font-bold">
             <b className="text-yellow-300 ">HEY</b>, I am Mirna Misheal
           </h1>
-          <p className="text-gray-400">I am a front-end web developer</p>
+          <p className="text-gray-400 pl-1">Front-end web developer</p>
           <div className="flex  py-2 ">
             <CiLocationOn size={20} />
             <h1 className="px-1">Egypt</h1>

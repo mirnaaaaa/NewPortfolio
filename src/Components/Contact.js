@@ -28,7 +28,7 @@ export const Contact = () => {
             <textarea
               name="message"
               placeholder="Enter your  message...."
-              className="py-20"
+              className="pb-40 "
             ></textarea>
             <button className="mx-auto px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-black to-gray-600 cursor-pointer hover:scale-105 duration-500">
               Let's talk
