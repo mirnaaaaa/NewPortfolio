@@ -17,8 +17,8 @@ export const ProjectList = [
     name: "Chat-App",
     image: chat,
     skills: "React, Firebase, Typescript, HTML, CSS",
-    href: "https://coruscating-peony-66f2b4.netlify.app",
-    repo: "https://github.com/mirnaaaaa/Chat-App"
+    href: "https://tubular-chebakia-405e4e.netlify.app",
+    repo: "https://github.com/mirnaaaaa/whatsapp-web"
   },
   {
     id: 1,
